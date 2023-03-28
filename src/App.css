@@ -1,0 +1,52 @@
+.App{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+.quotes__fhrase{
+    color: gray;
+    background-color:aliceblue;
+    border: 2px solid rgb(71, 71, 185);
+    max-width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    min-height: 250px;
+}
+
+.quotes__button{
+    margin: 30px;
+    color: salmon;
+    border: 2px solid salmon;
+    background-color: rgb(209, 168, 80);
+    border-radius: 10px;
+    min-width: 150px;
+    min-height: 50px;
+}
+h1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 520px){
+.quotes__fhrase{
+    min-height: 150px;
+    font-size: 20px;
+    padding: 20px;
+}
+.quotes__button{
+    min-width: 150px;
+    min-height: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+}
